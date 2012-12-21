@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9DC0DC158ECD71007C2DDA /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DC0D8158ECD71007C2DDA /* facebook.png */; };
+		DE9DC0DD158ECD71007C2DDA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DC0D9158ECD71007C2DDA /* home.png */; };
+		DE9DC0DE158ECD71007C2DDA /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DC0DA158ECD71007C2DDA /* mark.png */; };
+		DE9DC0DF158ECD71007C2DDA /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DC0DB158ECD71007C2DDA /* twitter.png */; };
+		DE9FBDC3158EA0F600E2EB33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDC2158EA0F600E2EB33 /* UIKit.framework */; };
+		DE9FBDC5158EA0F600E2EB33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDC4158EA0F600E2EB33 /* Foundation.framework */; };
+		DE9FBDC7158EA0F600E2EB33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDC6158EA0F600E2EB33 /* CoreGraphics.framework */; };
+		DE9FBDCD158EA0F600E2EB33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDCB158EA0F600E2EB33 /* InfoPlist.strings */; };
+		DE9FBDCF158EA0F600E2EB33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBDCE158EA0F600E2EB33 /* main.m */; };
+		DE9FBDD3158EA0F600E2EB33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBDD2158EA0F600E2EB33 /* AppDelegate.m */; };
+		DE9FBDD6158EA0F600E2EB33 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDD4158EA0F600E2EB33 /* MainStoryboard.storyboard */; };
+		DE9FBDD9158EA0F600E2EB33 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBDD8158EA0F600E2EB33 /* FirstViewController.m */; };
+		DE9FBDDB158EA0F600E2EB33 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDDA158EA0F600E2EB33 /* first.png */; };
+		DE9FBDDD158EA0F600E2EB33 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDDC158EA0F600E2EB33 /* first@2x.png */; };
+		DE9FBDE0158EA0F600E2EB33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBDDF158EA0F600E2EB33 /* SecondViewController.m */; };
+		DE9FBDE2158EA0F600E2EB33 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDE1158EA0F600E2EB33 /* second.png */; };
+		DE9FBDE4158EA0F600E2EB33 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDE3158EA0F600E2EB33 /* second@2x.png */; };
+		DE9FBDEC158EA0F700E2EB33 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDEB158EA0F700E2EB33 /* SenTestingKit.framework */; };
+		DE9FBDED158EA0F700E2EB33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDC2158EA0F600E2EB33 /* UIKit.framework */; };
+		DE9FBDEE158EA0F700E2EB33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FBDC4158EA0F600E2EB33 /* Foundation.framework */; };
+		DE9FBDF6158EA0F700E2EB33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9FBDF4158EA0F700E2EB33 /* InfoPlist.strings */; };
+		DE9FBDF9158EA0F700E2EB33 /* TOMAMUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBDF8158EA0F700E2EB33 /* TOMAMUTests.m */; };
+		DE9FBE0F158EA51300E2EB33 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBE0E158EA51300E2EB33 /* ThirdViewController.m */; };
+		DE9FBE12158EA62B00E2EB33 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FBE11158EA62B00E2EB33 /* ForthViewController.m */; };
+		DEA27760158ED78400DF861F /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEA2775F158ED78400DF861F /* logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9FBDEF158EA0F700E2EB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9FBDB5158EA0F600E2EB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9FBDBD158EA0F600E2EB33;
+			remoteInfo = TOMAMU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE9DC0D8158ECD71007C2DDA /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		DE9DC0D9158ECD71007C2DDA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		DE9DC0DA158ECD71007C2DDA /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		DE9DC0DB158ECD71007C2DDA /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		DE9FBDBE158EA0F600E2EB33 /* TOMAMU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOMAMU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9FBDC2158EA0F600E2EB33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE9FBDC4158EA0F600E2EB33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE9FBDC6158EA0F600E2EB33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE9FBDCA158EA0F600E2EB33 /* TOMAMU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TOMAMU-Info.plist"; sourceTree = "<group>"; };
+		DE9FBDCC158EA0F600E2EB33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE9FBDCE158EA0F600E2EB33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9FBDD0158EA0F600E2EB33 /* TOMAMU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TOMAMU-Prefix.pch"; sourceTree = "<group>"; };
+		DE9FBDD1158EA0F600E2EB33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE9FBDD2158EA0F600E2EB33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE9FBDD5158EA0F600E2EB33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE9FBDD7158EA0F600E2EB33 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DE9FBDD8158EA0F600E2EB33 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DE9FBDDA158EA0F600E2EB33 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		DE9FBDDC158EA0F600E2EB33 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		DE9FBDDE158EA0F600E2EB33 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DE9FBDDF158EA0F600E2EB33 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DE9FBDE1158EA0F600E2EB33 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		DE9FBDE3158EA0F600E2EB33 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		DE9FBDEA158EA0F700E2EB33 /* TOMAMUTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOMAMUTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9FBDEB158EA0F700E2EB33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE9FBDF3158EA0F700E2EB33 /* TOMAMUTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TOMAMUTests-Info.plist"; sourceTree = "<group>"; };
+		DE9FBDF5158EA0F700E2EB33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE9FBDF7158EA0F700E2EB33 /* TOMAMUTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOMAMUTests.h; sourceTree = "<group>"; };
+		DE9FBDF8158EA0F700E2EB33 /* TOMAMUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOMAMUTests.m; sourceTree = "<group>"; };
+		DE9FBE0D158EA43C00E2EB33 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DE9FBE0E158EA51300E2EB33 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DE9FBE10158EA62B00E2EB33 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		DE9FBE11158EA62B00E2EB33 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		DEA2775F158ED78400DF861F /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9FBDBB158EA0F600E2EB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDC3158EA0F600E2EB33 /* UIKit.framework in Frameworks */,
+				DE9FBDC5158EA0F600E2EB33 /* Foundation.framework in Frameworks */,
+				DE9FBDC7158EA0F600E2EB33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9FBDE6158EA0F700E2EB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDEC158EA0F700E2EB33 /* SenTestingKit.framework in Frameworks */,
+				DE9FBDED158EA0F700E2EB33 /* UIKit.framework in Frameworks */,
+				DE9FBDEE158EA0F700E2EB33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9FBDB3158EA0F600E2EB33 = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDC8158EA0F600E2EB33 /* TOMAMU */,
+				DE9FBDF1158EA0F700E2EB33 /* TOMAMUTests */,
+				DE9FBDC1158EA0F600E2EB33 /* Frameworks */,
+				DE9FBDBF158EA0F600E2EB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9FBDBF158EA0F600E2EB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDBE158EA0F600E2EB33 /* TOMAMU.app */,
+				DE9FBDEA158EA0F700E2EB33 /* TOMAMUTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9FBDC1158EA0F600E2EB33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDC2158EA0F600E2EB33 /* UIKit.framework */,
+				DE9FBDC4158EA0F600E2EB33 /* Foundation.framework */,
+				DE9FBDC6158EA0F600E2EB33 /* CoreGraphics.framework */,
+				DE9FBDEB158EA0F700E2EB33 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9FBDC8158EA0F600E2EB33 /* TOMAMU */ = {
+			isa = PBXGroup;
+			children = (
+				DE9DC0D8158ECD71007C2DDA /* facebook.png */,
+				DEA2775F158ED78400DF861F /* logo.jpg */,
+				DE9DC0D9158ECD71007C2DDA /* home.png */,
+				DE9DC0DA158ECD71007C2DDA /* mark.png */,
+				DE9DC0DB158ECD71007C2DDA /* twitter.png */,
+				DE9FBDD7158EA0F600E2EB33 /* FirstViewController.h */,
+				DE9FBDD8158EA0F600E2EB33 /* FirstViewController.m */,
+				DE9FBDDE158EA0F600E2EB33 /* SecondViewController.h */,
+				DE9FBDDF158EA0F600E2EB33 /* SecondViewController.m */,
+				DE9FBE0D158EA43C00E2EB33 /* ThirdViewController.h */,
+				DE9FBE0E158EA51300E2EB33 /* ThirdViewController.m */,
+				DE9FBE10158EA62B00E2EB33 /* ForthViewController.h */,
+				DE9FBE11158EA62B00E2EB33 /* ForthViewController.m */,
+				DE9FBDD1158EA0F600E2EB33 /* AppDelegate.h */,
+				DE9FBDD2158EA0F600E2EB33 /* AppDelegate.m */,
+				DE9FBDD4158EA0F600E2EB33 /* MainStoryboard.storyboard */,
+				DE9FBDDA158EA0F600E2EB33 /* first.png */,
+				DE9FBDDC158EA0F600E2EB33 /* first@2x.png */,
+				DE9FBDE1158EA0F600E2EB33 /* second.png */,
+				DE9FBDE3158EA0F600E2EB33 /* second@2x.png */,
+				DE9FBDC9158EA0F600E2EB33 /* Supporting Files */,
+			);
+			path = TOMAMU;
+			sourceTree = "<group>";
+		};
+		DE9FBDC9158EA0F600E2EB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDCA158EA0F600E2EB33 /* TOMAMU-Info.plist */,
+				DE9FBDCB158EA0F600E2EB33 /* InfoPlist.strings */,
+				DE9FBDCE158EA0F600E2EB33 /* main.m */,
+				DE9FBDD0158EA0F600E2EB33 /* TOMAMU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9FBDF1158EA0F700E2EB33 /* TOMAMUTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDF7158EA0F700E2EB33 /* TOMAMUTests.h */,
+				DE9FBDF8158EA0F700E2EB33 /* TOMAMUTests.m */,
+				DE9FBDF2158EA0F700E2EB33 /* Supporting Files */,
+			);
+			path = TOMAMUTests;
+			sourceTree = "<group>";
+		};
+		DE9FBDF2158EA0F700E2EB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9FBDF3158EA0F700E2EB33 /* TOMAMUTests-Info.plist */,
+				DE9FBDF4158EA0F700E2EB33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9FBDBD158EA0F600E2EB33 /* TOMAMU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9FBDFC158EA0F700E2EB33 /* Build configuration list for PBXNativeTarget "TOMAMU" */;
+			buildPhases = (
+				DE9FBDBA158EA0F600E2EB33 /* Sources */,
+				DE9FBDBB158EA0F600E2EB33 /* Frameworks */,
+				DE9FBDBC158EA0F600E2EB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOMAMU;
+			productName = TOMAMU;
+			productReference = DE9FBDBE158EA0F600E2EB33 /* TOMAMU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE9FBDE9158EA0F700E2EB33 /* TOMAMUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9FBDFF158EA0F700E2EB33 /* Build configuration list for PBXNativeTarget "TOMAMUTests" */;
+			buildPhases = (
+				DE9FBDE5158EA0F700E2EB33 /* Sources */,
+				DE9FBDE6158EA0F700E2EB33 /* Frameworks */,
+				DE9FBDE7158EA0F700E2EB33 /* Resources */,
+				DE9FBDE8158EA0F700E2EB33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9FBDF0158EA0F700E2EB33 /* PBXTargetDependency */,
+			);
+			name = TOMAMUTests;
+			productName = TOMAMUTests;
+			productReference = DE9FBDEA158EA0F700E2EB33 /* TOMAMUTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9FBDB5158EA0F600E2EB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "北海道情報大学";
+			};
+			buildConfigurationList = DE9FBDB8158EA0F600E2EB33 /* Build configuration list for PBXProject "TOMAMU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE9FBDB3158EA0F600E2EB33;
+			productRefGroup = DE9FBDBF158EA0F600E2EB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9FBDBD158EA0F600E2EB33 /* TOMAMU */,
+				DE9FBDE9158EA0F700E2EB33 /* TOMAMUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9FBDBC158EA0F600E2EB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDCD158EA0F600E2EB33 /* InfoPlist.strings in Resources */,
+				DE9FBDD6158EA0F600E2EB33 /* MainStoryboard.storyboard in Resources */,
+				DE9FBDDB158EA0F600E2EB33 /* first.png in Resources */,
+				DE9FBDDD158EA0F600E2EB33 /* first@2x.png in Resources */,
+				DE9FBDE2158EA0F600E2EB33 /* second.png in Resources */,
+				DE9FBDE4158EA0F600E2EB33 /* second@2x.png in Resources */,
+				DE9DC0DC158ECD71007C2DDA /* facebook.png in Resources */,
+				DE9DC0DD158ECD71007C2DDA /* home.png in Resources */,
+				DE9DC0DE158ECD71007C2DDA /* mark.png in Resources */,
+				DE9DC0DF158ECD71007C2DDA /* twitter.png in Resources */,
+				DEA27760158ED78400DF861F /* logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9FBDE7158EA0F700E2EB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDF6158EA0F700E2EB33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE9FBDE8158EA0F700E2EB33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9FBDBA158EA0F600E2EB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDCF158EA0F600E2EB33 /* main.m in Sources */,
+				DE9FBDD3158EA0F600E2EB33 /* AppDelegate.m in Sources */,
+				DE9FBDD9158EA0F600E2EB33 /* FirstViewController.m in Sources */,
+				DE9FBDE0158EA0F600E2EB33 /* SecondViewController.m in Sources */,
+				DE9FBE0F158EA51300E2EB33 /* ThirdViewController.m in Sources */,
+				DE9FBE12158EA62B00E2EB33 /* ForthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9FBDE5158EA0F700E2EB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9FBDF9158EA0F700E2EB33 /* TOMAMUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9FBDF0158EA0F700E2EB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9FBDBD158EA0F600E2EB33 /* TOMAMU */;
+			targetProxy = DE9FBDEF158EA0F700E2EB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE9FBDCB158EA0F600E2EB33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9FBDCC158EA0F600E2EB33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE9FBDD4158EA0F600E2EB33 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9FBDD5158EA0F600E2EB33 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DE9FBDF4158EA0F700E2EB33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9FBDF5158EA0F700E2EB33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9FBDFA158EA0F700E2EB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9FBDFB158EA0F700E2EB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9FBDFD158EA0F700E2EB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TOMAMU/TOMAMU-Prefix.pch";
+				INFOPLIST_FILE = "TOMAMU/TOMAMU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE9FBDFE158EA0F700E2EB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TOMAMU/TOMAMU-Prefix.pch";
+				INFOPLIST_FILE = "TOMAMU/TOMAMU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE9FBE00158EA0F700E2EB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TOMAMU.app/TOMAMU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TOMAMU/TOMAMU-Prefix.pch";
+				INFOPLIST_FILE = "TOMAMUTests/TOMAMUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE9FBE01158EA0F700E2EB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TOMAMU.app/TOMAMU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TOMAMU/TOMAMU-Prefix.pch";
+				INFOPLIST_FILE = "TOMAMUTests/TOMAMUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9FBDB8158EA0F600E2EB33 /* Build configuration list for PBXProject "TOMAMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9FBDFA158EA0F700E2EB33 /* Debug */,
+				DE9FBDFB158EA0F700E2EB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9FBDFC158EA0F700E2EB33 /* Build configuration list for PBXNativeTarget "TOMAMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9FBDFD158EA0F700E2EB33 /* Debug */,
+				DE9FBDFE158EA0F700E2EB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9FBDFF158EA0F700E2EB33 /* Build configuration list for PBXNativeTarget "TOMAMUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9FBE00158EA0F700E2EB33 /* Debug */,
+				DE9FBE01158EA0F700E2EB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9FBDB5158EA0F600E2EB33 /* Project object */;
+}
